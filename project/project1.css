@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    height: 100%;
+    background: #000000;
+    font-family: myFirstFont;
+    font-weight: bold;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(InterstateBold.otf);
+    font-weight: bold;
+}
+.tm-header{
+	padding: 5px 0px 10px 0px;
+	background: #000000;
+	}
+.tm-nav ul li{
+	display: inline;
+}
+.tm-nav ul li a{
+	padding: 10px 70px 26px 69.2px;
+	color: #fff;
+	background: red;
+	text-decoration: none;
+	text-align: center;
+}
+.tm-nav ul li a:hover{
+	color: #000000;
+	}
+.tm-article{
+
+	padding-bottom: 30px;
+}
+.tm-logo{
+	padding-bottom: 10px;
+}
+
+}
+.image1{
+	float: left;
+}
+.image2{
+	float: right;
+}
+.table th{
+	color: #A9A9A9;
+	text-decoration: none;
+}
+.tm-body td a{
+	color: #fff;
+	text-decoration: none;
+}
+.tm-body td{
+	color: #fff;
+}
